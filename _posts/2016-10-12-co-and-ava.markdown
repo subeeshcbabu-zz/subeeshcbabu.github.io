@@ -7,7 +7,7 @@ categories: Trending_modules
 
 When I started writing unit tests for the [Swagger](http://swagger.io/) validator module - [Swagvali](https://github.com/subeeshcbabu/swagvali), I came across the need to run tests on 100s of real world APIs. [API Guru](https://apis.guru/) provides, this cool list of [real world APIs](https://s3.amazonaws.com/api.apis.guru/v2/list.json) - these are hundreds of Swagger specs, you can run your tests against.
 
-### How to deal with Asynchronous operations
+### Asynchronous tasks
 
 My initial thoughts were to use es7 [async/await](https://tc39.github.io/ecmascript-asyncawait/) to handle the asynchronous tasks like http fetch, schema validation, parsing, validation etc. However to use `async/await` in a module, you have to use [Babel](https://babeljs.io/) transpiler. Using babel for a module, was an overkill for me, especially because of the fact that, I was deliberately trying avoid the transpiler configurations and issues related to it.
 

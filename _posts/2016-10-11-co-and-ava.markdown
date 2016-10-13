@@ -5,10 +5,4 @@ date:   2016-10-11 19:10:55 -0700
 categories: Trending_modules
 ---
 
-
-
-{% highlight ruby %}
-def foo
-  puts 'foo'
-end
-{% endhighlight %}
+In progress

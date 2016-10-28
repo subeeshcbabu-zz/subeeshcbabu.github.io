@@ -16,6 +16,14 @@ I am passionate about continuous integration (CI) systems, container based deplo
 
 - [swagmock](https://github.com/subeeshcbabu/swagmock)
 
+- [swagvali](https://github.com/subeeshcbabu/swagvali)
+
 - [react-github-summary](https://github.com/subeeshcbabu/react-github-summary)
 
 - [netstringify](https://github.com/subeeshcbabu/netstringify)
+
+## Tutorials and Examples
+
+- [krakenjs-angular2](https://github.com/subeeshcbabu/krakenjs-angular2)
+
+- [swaggerize-examples](https://github.com/subeeshcbabu/swaggerize-examples)

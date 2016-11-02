@@ -5,7 +5,41 @@ date:   2016-10-12 19:10:55 -0700
 categories: Trending_modules
 ---
 
-When I started writing unit tests for the `Swagger` validator module - [Swagvali](https://github.com/subeeshcbabu/swagvali), I came across the need to run tests on 100s of real world APIs. [API Guru](https://apis.guru/) provides, this cool list of real world APIs - https://s3.amazonaws.com/api.apis.guru/v2/list.json ; these are hundreds of Swagger specs, you can run your tests against.
+When I started writing unit tests for the `Swagger` validator module - [Swagvali](https://github.com/subeeshcbabu/swagvali), I came across the need to run tests on 100s of real world APIs. [API Guru](https://apis.guru/) provides, this cool list of [real world APIs](https://s3.amazonaws.com/api.apis.guru/v2/list.json) - these are hundreds of Swagger specs, you can run your tests against.
 
+### How to deal with Asynchronous operations
+
+My initial thoughts were to use es7 [async/await](https://tc39.github.io/ecmascript-asyncawait/) to handle the asynchronous tasks like http fetch, schema validation, parsing, validation etc. However to use `async/await` in a module, you have to use [Babel](https://babeljs.io/) transpiler. Using babel for a module, was an overkill for me, especially because of the fact that, I was deliberately trying avoid the transpiler configurations and issues related to it.
+
+Turns out, [Co](https://github.com/tj/co) was exactly the module, that have been looking for. **`Co` is a generator based flow-control goodness for Node.js** and a stepping stone towards the `async/await` proposal.
+
+`Co` takes a `generator` function as an argument and much like async/await, co returns a promise as the result.
+
+```javascript
+const Co = require('co');
+
+//result is a Promise.
+let result = Co(function* () {
+    //remoteAPI is an asynchronous function that returns a promise.
+    let api = yield remoteAPI();
+    //parser is an asynchronous function that returns a promise.
+    let result = yield parser(api);
+    return result;
+});
+
+```
+
+#### Test runner framework
+
+[Ava](https://github.com/avajs/ava) was obviously my choice of test runner framework, because `ava` can handle all the async programming constructs like promises, generators, async/await functions, and Observables for you. It was simple enough to return a promise from the test cases and `ava` will take care of resolving the value or handling the error.
+
+#### Here is the Code
 
 {% gist 4d258183ee7149d0f9e5a35d5647bd7b %}
+
+
+### References
+
+- [https://github.com/tj/co](https://github.com/tj/co)
+
+- [https://github.com/subeeshcbabu/swagvali/blob/master/test/apis.js](https://github.com/subeeshcbabu/swagvali/blob/master/test/apis.js)

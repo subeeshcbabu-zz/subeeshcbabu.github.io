@@ -5,8 +5,7 @@ date:   2016-10-12 19:10:55 -0700
 categories: Trending_modules
 ---
 
-**In progress**
-
+When I started writing unit tests for the `Swagger` validator module - [Swagvali](https://github.com/subeeshcbabu/swagvali), I came across the need to run tests on 100s of real world APIs. [API Guru](https://apis.guru/) provides, this cool list of real world APIs - https://s3.amazonaws.com/api.apis.guru/v2/list.json ; these are hundreds of Swagger specs, you can run your tests against.
 
 
 {% gist 4d258183ee7149d0f9e5a35d5647bd7b %}

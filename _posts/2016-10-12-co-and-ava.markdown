@@ -5,7 +5,7 @@ date:   2016-10-12 19:10:55 -0700
 categories: Trending_modules
 ---
 
-When I started writing unit tests for the `Swagger` validator module - [Swagvali](https://github.com/subeeshcbabu/swagvali), I came across the need to run tests on 100s of real world APIs. [API Guru](https://apis.guru/) provides, this cool list of [real world APIs](https://s3.amazonaws.com/api.apis.guru/v2/list.json) - these are hundreds of Swagger specs, you can run your tests against.
+When I started writing unit tests for the [Swagger](http://swagger.io/) validator module - [Swagvali](https://github.com/subeeshcbabu/swagvali), I came across the need to run tests on 100s of real world APIs. [API Guru](https://apis.guru/) provides, this cool list of [real world APIs](https://s3.amazonaws.com/api.apis.guru/v2/list.json) - these are hundreds of Swagger specs, you can run your tests against.
 
 ### How to deal with Asynchronous operations
 
@@ -39,6 +39,8 @@ let result = Co(function* () {
 
 
 ### References
+
+- [http://swagger.io/](http://swagger.io/)
 
 - [https://github.com/tj/co](https://github.com/tj/co)
 

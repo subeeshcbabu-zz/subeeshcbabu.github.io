@@ -22,8 +22,19 @@ I am passionate about continuous integration (CI) systems, container based deplo
 
 - [netstringify](https://github.com/subeeshcbabu/netstringify)
 
+## Maintainer (or Core Contributor)
+
+- [krakenjs/generator-swaggerize](https://github.com/krakenjs/generator-swaggerize)
+
+- [krakenjs/swaggerize-routes](https://github.com/krakenjs/swaggerize-routes)
+
+- [krakenjs/swaggerize-express](https://github.com/krakenjs/swaggerize-express)
+
+
 ## Tutorials and Examples
 
 - [krakenjs-angular2](https://github.com/subeeshcbabu/krakenjs-angular2)
 
 - [swaggerize-examples](https://github.com/subeeshcbabu/swaggerize-examples)
+
+- [react-redux-krakenjs-swaggerize-express](https://github.com/krakenjs/react-redux-krakenjs-swaggerize-express)

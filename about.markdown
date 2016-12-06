@@ -33,8 +33,10 @@ I am passionate about continuous integration (CI) systems, container based deplo
 
 ## Tutorials and Examples
 
-- [krakenjs-angular2](https://github.com/subeeshcbabu/krakenjs-angular2)
+- [krakenjs and angular2](https://github.com/subeeshcbabu/krakenjs-angular2)
 
-- [swaggerize-examples](https://github.com/subeeshcbabu/swaggerize-examples)
+- [swaggerize examples](https://github.com/subeeshcbabu/swaggerize-examples)
 
-- [react-redux-krakenjs-swaggerize-express](https://github.com/krakenjs/react-redux-krakenjs-swaggerize-express)
+- [react-redux-krakenjs-swaggerize-express example](https://github.com/krakenjs/react-redux-krakenjs-swaggerize-express)
+
+- [cycle.js example](https://github.com/subii/cycle-example)

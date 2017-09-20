@@ -6,7 +6,7 @@ permalink: /about/
 
 {% include githubsummary.html %}
 
-I am a lead full-stack software engineer with 10 years of experience in large-scale, e-commerce web application development.
+I am a lead full-stack software engineer with 11 years of experience in large-scale, e-commerce web application development.
 
 I am someone who enjoys contributing to open source projects, mainly to the JavaScript and Node.js community. I am proud to be part of the core infrastructure team, that helped drive Node.js adoption at companies like `PayPal` and `eBay`. I am one of the active maintainers of the `krakenjs` and `swaggerize` open source projects.
 
@@ -40,3 +40,9 @@ I am passionate about continuous integration (CI) systems, container based deplo
 - [react-redux-krakenjs-swaggerize-express example](https://github.com/krakenjs/react-redux-krakenjs-swaggerize-express)
 
 - [cycle.js example](https://github.com/subii/cycle-example)
+
+## Blogs
+
+- [Swagmock - The mock data generator for Swagger (aka OpenAPI)](https://medium.com/@subeeshcbabu/swagmock-the-mock-data-generator-for-swagger-aka-openapi-f20e7e9e1b82)
+
+- [Asynchronous unit tests using co and ava](http://subeeshcbabu.github.io/trending_modules/2016/10/13/co-and-ava.html)

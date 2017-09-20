@@ -4,6 +4,9 @@ title:  "Swagmock - The mock data generator for Swagger (aka OpenAPI)"
 date:   2016-10-9 10:25:53 -0700
 categories: Trending_modules
 ---
+
+[Medium Post](https://medium.com/@subeeshcbabu/swagmock-the-mock-data-generator-for-swagger-aka-openapi-f20e7e9e1b82)
+
 **[Swagger](https://openapis.org/) (aka OpenAPI)** is pretty much the de facto standard to define  and describe **REST APIs** across different platforms. Swagger has been excellent in providing a vendor neutral and language agnostic description format for APIs.
 
 The [Swagger specification](https://github.com/OAI/OpenAPI-Specification) offers a standard definition, using which, a consumer can understand and interact with the remote service with minimal amount of implementation logic. Swagger, also the world’s most popular REST API description format, has a huge community support including vast number of libraries, frameworks and tooling that very well define the **Swagger ecosystem**.
